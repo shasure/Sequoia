@@ -1,0 +1,2 @@
+MARKET_A = 'A'
+MARKET_HK = 'HK'

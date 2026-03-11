@@ -1,4 +1,4 @@
-/data/*.h5
+/data/*
 /storage/*.db
 /storage/*.csv
 /.idea/
@@ -8,5 +8,7 @@
 .DS_Store
 storage/Positions
 config.yaml
+/ashare_data_csv_d/*
+/result/*
 
 logs/*

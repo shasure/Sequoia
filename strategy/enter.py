@@ -83,7 +83,7 @@ def check_volume(code_name, data, end_date=None, threshold=60):
         data = data.loc[mask]
     if data.empty:
         return False
-    p_change = data.iloc[-1]['p_change']
+    p_change = data.iloc[-1]['涨跌幅']
     if p_change < 2 \
             or data.iloc[-1]['收盘'] < data.iloc[-1]['开盘']:
         return False
